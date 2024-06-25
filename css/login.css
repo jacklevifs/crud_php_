@@ -1,0 +1,76 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-header h2 {
+  color: #c61a09;
+  margin: 0;
+}
+
+.login-form .input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c61a09; 
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-form .input-field::placeholder {
+  color: #c61a09; 
+}
+
+.login-form .submit-button {
+  background-color: #c61a09; 
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.login-form .submit-button:hover {
+  background-color: #a80f07; 
+}
+
+.login-form p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-form p a {
+  color: #c61a09; 
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.login-form p a:hover {
+  color: #a80f07; 
+}

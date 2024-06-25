@@ -1,0 +1,147 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #c61a09;
+  color: #ffffff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header button {
+  background-color: #ffffff;
+  color: #c61a09;
+  border: 1px solid #c61a09;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header button:hover {
+  background-color: #c61a09;
+  color: #ffffff;
+}
+
+header button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container-table {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #c61a09;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #df2c14;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffc9bb;
+}
+
+table tr:hover {
+  background-color: #ffa590;
+}
+
+table td {
+  color: #4d4d4d;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.option-column {
+  width: 150px;
+}
+
+.btn {
+  background-color: #df2c14;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #c61a09;
+}
+
+.btn-danger {
+  background-color: #ff4122;
+}
+
+.btn-danger:hover {
+  background-color: #ed3419;
+}
+
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.add-button {
+  text-align: center;
+}
+
+.add-button h3 {
+  color: #df2c14;
+}
+
+.add-button .btn-primary {
+  margin-top: 10px;
+}
